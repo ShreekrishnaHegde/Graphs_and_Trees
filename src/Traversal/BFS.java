@@ -1,4 +1,4 @@
-package Introduction;
+package Traversal;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -37,7 +37,20 @@ public class BFS {
     }
 }
 /*
+Breadth First Search (BFS)  is a fundamental  graph traversal algorithm.
+It begins with a node, then first traverses all its adjacent nodes.
+Once all adjacent are visited, then their adjacent are traversed.
 
-nodes goes once into the dfs and runs on all its degrees
-Time complexity: O(n)+O(2*E) search why
+-------------------Algorithm------------------
+Initialization: Enqueue the given source vertex into a queue and mark it as visited.
+Exploration: While the queue is not empty:
+    Dequeue a node from the queue and visit it (e.g., print its value).
+    For each unvisited neighbor of the dequeued node:
+    Enqueue the neighbor into the queue.
+    Mark the neighbor as visited.
+Termination: Repeat step 2 until the queue is empty.
+
+
+Space Complexity: O(V)
+Time Complexity: O(2*E)+O(V)
  */

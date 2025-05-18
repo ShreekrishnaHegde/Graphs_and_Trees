@@ -1,6 +1,5 @@
-package Introduction;
+package Traversal;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -35,8 +34,13 @@ public class DFS {
 }
 
 /*
+-----------------Algorithm----------------
+Start by putting any one of the graph's vertices on top of a stack.
+Take the top item of the stack and add it to the visited list.
+Create a list of that vertex's adjacent nodes. Add the ones which aren't in the visited list
+    to the top of the stack.
+Keep repeating steps 2 and 3 until the stack is empty.
 
-
-Space Complexity: O(N)+O(N)+O(n)
-TC: O(n)+(2*e)
+Space Complexity: O(V)+O(V)+O(V)
+Time Complexity: O(V)+(2*E)
  */
