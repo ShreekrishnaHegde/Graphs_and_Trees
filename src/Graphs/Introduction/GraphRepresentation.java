@@ -1,4 +1,4 @@
-package Introduction;
+package Graphs.Introduction;
 
 public class GraphRepresentation {
     public static void main(String[] args) {

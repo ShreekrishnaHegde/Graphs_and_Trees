@@ -1,6 +1,5 @@
-package GraphAlgorithms;
+package Graphs.GraphAlgorithms;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Stack;
 

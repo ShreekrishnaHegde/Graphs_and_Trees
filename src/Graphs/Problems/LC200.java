@@ -1,4 +1,4 @@
-package Problems;
+package Graphs.Problems;
 
 import java.util.LinkedList;
 import java.util.Queue;

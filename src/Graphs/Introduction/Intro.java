@@ -1,4 +1,4 @@
-package Introduction;
+package Graphs.Introduction;
 
 public class Intro {
 

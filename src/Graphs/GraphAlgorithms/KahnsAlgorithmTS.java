@@ -1,6 +1,5 @@
-package GraphAlgorithms;
+package Graphs.GraphAlgorithms;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -28,7 +27,7 @@ public class KahnsAlgorithmTS {
         while(!q.isEmpty()){
             int node=q.poll();
             topo[i++]=node;
-            for(int it:adj.get(node))
+
         }
 
     }
