@@ -27,7 +27,7 @@ public class DFS {
         boolean[] visited =new boolean[V];
         visited[0]=true;
         ArrayList<Integer> list=new ArrayList<>();
-        function(0,list,visited,adjList);
+        function(V,list,visited,adjList);
         return list;
     }
 
