@@ -1,5 +1,6 @@
 package Graphs.GraphAlgorithms;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ShortestPath {
@@ -14,8 +15,8 @@ public class ShortestPath {
     public static void main(String[] args) {
 
     }
-    public static List<Integer> shortestPath(int n,int m,int edges[][]{
+    public static List<Integer> shortestPath(int n,int m,int edges[][]){
 
-
+        return new ArrayList<Integer>();
     }
 }
