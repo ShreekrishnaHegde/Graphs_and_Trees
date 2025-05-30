@@ -65,3 +65,7 @@ public class NumberOfEnclaves {
         return count;
     }
 }
+/*
+TC: N x N
+SC: O(Nx N)
+ */
