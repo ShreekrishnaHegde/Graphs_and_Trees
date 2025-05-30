@@ -44,5 +44,8 @@ public class DijkstrasAlgoM1 {
 Why negative wts is not possible
 because itll be infinite loop .
 ElogV is the time complexity
+derivqton of time complexoty
 why priority queue should be used why not stack or array or oridinary queue
+
+Dense Graph
  */
