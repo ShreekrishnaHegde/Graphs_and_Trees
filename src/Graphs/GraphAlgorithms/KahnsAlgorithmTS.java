@@ -8,7 +8,7 @@ public class KahnsAlgorithmTS {
     public static void main(String[] args) {
 
     }
-    public static function(int V, ArrayList<ArrayList<Integer>> adj){
+    public static int[] function(int V, ArrayList<ArrayList<Integer>> adj){
         int[] inDegree=new int[V];
         Queue<Integer> q=new LinkedList<Integer>();
 
@@ -27,8 +27,14 @@ public class KahnsAlgorithmTS {
         while(!q.isEmpty()){
             int node=q.poll();
             topo[i++]=node;
+            for(int item: adj.get(node)){
+                inDegree[item]--;
+                if(inDegree[item]==0)
+                    q.add(item);
 
+            }
         }
+        return topo;
 
     }
 
@@ -38,4 +44,7 @@ public class KahnsAlgorithmTS {
 insrt all the nodes with indree=0 to the queue
 take them out and remove the in degree
 only valid in DAG
+
+TC: v+e
+SC: o (N)
  */
