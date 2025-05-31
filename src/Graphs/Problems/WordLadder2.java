@@ -51,6 +51,7 @@ public class WordLadder2 {
                         vec.add(replacedString);
                         ArrayList<String> temp=new ArrayList<>();
                         q.add(temp);
+                        //mark as visited on the level
                         usedOnLevel.add(replacedString);
                         vec.removeLast();
                     }
